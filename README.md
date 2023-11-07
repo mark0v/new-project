@@ -20,4 +20,8 @@ git checkout master
 # Merge changes from development to master
 git merge development
 # Push changes to GitHub
-git push origin master
+
+During pushing repository to GitHub branch master was renamed to main
+git remote add origin https://github.com/mark0v/new-project.git
+git branch -M main
+git push -u origin main
